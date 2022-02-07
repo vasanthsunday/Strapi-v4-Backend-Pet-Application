@@ -38,6 +38,11 @@
         "Male",
         "Female"
       ]
+    },
+    "foods": {
+      "type": "relation",
+      "relation": "oneToMany",
+      "target": "api::food.food"
     }
   }
 }

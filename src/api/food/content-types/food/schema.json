@@ -1,0 +1,21 @@
+{
+  "kind": "collectionType",
+  "collectionName": "foods",
+  "info": {
+    "singularName": "food",
+    "pluralName": "foods",
+    "displayName": "food"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "foodname": {
+      "type": "string"
+    },
+    "foodtype": {
+      "type": "string"
+    }
+  }
+}
